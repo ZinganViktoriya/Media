@@ -1,0 +1,44 @@
+/*Desktop first*/
+@media(min-width: 1171px) {
+	.container {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 1170px) {
+	.container {
+		width: 992px;
+		margin: 0 auto; 
+	}
+	section#services .serviceWrap {
+		justify-content: center;
+	}
+	section#services .serviceWrap .service {
+		margin: 40px 30px 0;
+	}
+	section#services .headWrapper {
+		margin-left: 30px;
+	}
+}
+@media(max-width: 992px) {
+	.container {
+		width: 768px;
+		margin: 0 auto; 
+	}
+}
+@media(max-width: 768px) {
+	.container {
+		width: 100%;
+		margin: 0 auto; 
+	}
+	section#services .serviceWrap {
+		flex-direction: column;
+	}
+	section#services .serviceWrap .service {
+		margin: 40px 30px 0;
+	}
+}
+@media(max-width: 320px) {
+	
+}
+/*Mobile first*/
